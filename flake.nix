@@ -141,7 +141,7 @@
             boot.loader.grub =
               {
                 theme = "${grub2-theme}/grub/themes/${cfg.theme}";
-                splashImage = lib.mkForce
+                splashImage = 
                   "${grub2-theme}/grub/themes/${cfg.theme}/background.jpg";
                 gfxmodeEfi = "${resolution},auto";
                 gfxmodeBios = "${resolution},auto";
